@@ -24,7 +24,7 @@ Padrao Bitcoin Atividades de Internet LTDA (CNPJ 51.148.891/0001-69)
 Part of the atomus-ai / claw-mcp-toolkit / sovereign-agent-chain ecosystem
 
 ## Links
-- Live: https://elromevedelelyon.github.io/gitflix/
+- Live: https://elromevedelelyon.github.io/gitflix-app/
 - GitHub: https://github.com/ElromEvedElElyon/gitflix
 - atomus-ai: https://github.com/ElromEvedElElyon/atomus-ai
 - claw-mcp-toolkit: https://github.com/ElromEvedElElyon/claw-mcp-toolkit

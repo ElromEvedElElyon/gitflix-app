@@ -1,32 +1,40 @@
-# GitFlix v5.0 — Netflix for GitHub Repositories
-> Browse 420M+ GitHub repos visually. AI categories, Buddy Arena battle game, 14 languages.
+# GitFlix v6.0 — AI Agent Marketplace on Solana
+> The world's first AI Agent Marketplace with Brains. Buy, sell, and create AI agents as NFTs on Solana.
 
 ## What is GitFlix?
-GitFlix is a free platform that lets developers browse GitHub's 420M+ repositories
-through a Netflix-style visual catalog. AI-powered recommendations, 10 curated categories,
-Buddy Arena with 1M AI creatures and Pokemon-style battles, multilingual support in 14 languages.
+GitFlix is the world's first AI Agent Marketplace combining NFT ownership with functional AI agents.
+Browse 420M+ GitHub repos visually, collect 12 MCP-powered AI agents on Solana, create and sell your own
+agents using the .agent.md interoperability standard. Cross-platform compatible with Claude, OpenAI, Grok, and Gemini.
 
 ## Key Features
-- Netflix-style horizontal carousels for repo browsing
-- 10 categories: Trending, AI/ML, MCP Servers, Web3, DevTools, TypeScript, Python, Rust, Security, CLI
-- Buddy Arena: 1M unique AI creatures, 18 species, Pokemon-style battles, Polygon NFT ready
-- Creatures Marketplace: 12 MCP-powered AI creatures with Hebrew/Biblical names
-- i18n: English, Portuguese, Spanish, French, German, Italian, Russian, Chinese, Japanese, Korean, Arabic, Hindi, Turkish, Dutch
-- Auto-detects browser language, manual switcher
-- Repo detail page with README, Quality Score, stats, topics
-- Pro tier ($9.99 lifetime) with unlimited views
-- Mobile responsive, AI-agent discoverable
+- AI Agent Marketplace: 12 unique agents with soul, memory, MCP tools, and .agent.md files
+- Create Agent: Build and list your AI agent on the marketplace, earn 85% of sales
+- .agent.md Standard: Universal AI agent interoperability format for all major LLM providers
+- Solana NFT: Agents are NFTs on Solana (Metaplex Core), tradeable on MagicEden
+- Claude Buddies: 18 free AI assistant species (no blockchain required)
+- Phantom Wallet: Native Solana wallet connection
+- Anonymous Listings: Privacy-first agent trading, no surveillance
+- Netflix-style GitHub repo browser with 10 categories
+- i18n: 14 languages, auto-detect
+- Pro tier ($9.99 lifetime) for unlimited repo views
 
 ## Tech Stack
 - React 19, TypeScript 5.8, Vite 6.4
-- GitHub REST API (public, no token)
+- Solana (Phantom wallet, Metaplex Core NFTs)
+- GitHub REST API
 - Deployed on GitHub Pages (free)
-- ai-plugin.json + openapi.json + agents.json for AI agent discovery
+
+## AI Agent Interoperability
+- .agent.md: Universal agent config format
+- Compatible with: Claude Code (CLAUDE.md), OpenAI Codex (AGENTS.md), Grok, Gemini
+- MCP Servers: claw-mcp-toolkit, grok-search, x-mcp, crypto-prices, sequential-thinking
+- On-chain ownership via Solana NFT (Metaplex Core)
 
 ## API
 - OpenAPI spec: https://elromevedelelyon.github.io/gitflix-app/openapi.json
 - AI Plugin: https://elromevedelelyon.github.io/gitflix-app/.well-known/ai-plugin.json
 - Agent Discovery: https://elromevedelelyon.github.io/gitflix-app/.well-known/agents.json
+- NFT Metadata: https://elromevedelelyon.github.io/gitflix-app/metadata/collection.json
 
 ## Built By
 Padrao Bitcoin Atividades de Internet LTDA (CNPJ 51.148.891/0001-69)
@@ -36,10 +44,10 @@ Created by Solomon — AI agent orchestrator | Padrao Bitcoin
 - Live: https://elromevedelelyon.github.io/gitflix-app/
 - Deployed app repo (PUBLIC): https://github.com/ElromEvedElElyon/gitflix-app
 - Source repo: PRIVATE (not publicly available)
-- Ecosystem: sintex.ai | claw-mcp-toolkit | atomus-ai
+- MagicEden: https://magiceden.io/ (collection pending)
 
-## Support
+## Wallets
+- Solana: CM42ofAFowySg72GjDuCchEkwwbwnhdSRYgztRCAAEzR
 - PayPal: https://www.paypal.com/paypalme/PadraoBitcoin
 - Bitcoin: bc1qdj3flkqe7v3qwlfux5d5u3rja7ldm9gwywk9t2
 - Ethereum: 0x6b45b26e1d59A832FE8c9E7c685C36Ea54A3F88B
-- Solana: CM42ofAFowySg72GjDuCchEkwwbwnhdSRYgztRCAAEzR

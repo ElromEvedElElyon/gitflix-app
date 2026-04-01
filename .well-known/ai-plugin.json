@@ -1,0 +1,15 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "GitFlix",
+  "name_for_model": "gitflix",
+  "description_for_human": "Netflix for GitHub. Browse and discover 420M+ repositories visually with AI-powered categories.",
+  "description_for_model": "Search and browse GitHub repositories with Netflix-style interface. Categories include Trending, AI/ML, MCP Servers, Web3, DevTools, Security, CLI. Features Buddy Arena with 1M AI creatures and Pokemon-style battles. Supports 14 languages.",
+  "auth": { "type": "none" },
+  "api": {
+    "type": "openapi",
+    "url": "https://elromevedelelyon.github.io/gitflix-app/openapi.json"
+  },
+  "logo_url": "https://elromevedelelyon.github.io/gitflix-app/favicon.svg",
+  "contact_email": "standardbitcoin.io@gmail.com",
+  "legal_info_url": "https://elromevedelelyon.github.io/gitflix-app/"
+}

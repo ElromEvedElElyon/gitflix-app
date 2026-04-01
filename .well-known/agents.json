@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "name": "GitFlix",
+  "description": "Netflix-style GitHub repository browser with AI-powered discovery and Buddy Arena battle game",
+  "url": "https://elromevedelelyon.github.io/gitflix-app/",
+  "capabilities": {
+    "search": {
+      "description": "Search GitHub repositories by keyword, topic, language, or stars"
+    },
+    "browse": {
+      "description": "Browse repositories by category: Trending, AI/ML, MCP, Web3, DevTools, Security, CLI"
+    },
+    "details": {
+      "description": "View repository details including README, Quality Score, stats, and topics"
+    },
+    "creatures": {
+      "description": "Browse and collect AI creatures with MCP tool integrations"
+    },
+    "buddyArena": {
+      "description": "Pokemon-style battle game with 1M unique AI creatures across 18 species"
+    }
+  },
+  "languages": ["en","pt","es","fr","de","it","ru","zh","ja","ko","ar","hi","tr","nl"],
+  "auth": { "type": "none" },
+  "contact_email": "standardbitcoin.io@gmail.com"
+}

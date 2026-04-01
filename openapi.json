@@ -1,0 +1,85 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "GitFlix API",
+    "description": "Netflix-style GitHub repository browser. Browse 420M+ repos visually with AI categories, Buddy Arena, and multilingual support.",
+    "version": "4.0.0",
+    "contact": {
+      "name": "Padrao Bitcoin",
+      "email": "standardbitcoin.io@gmail.com",
+      "url": "https://elromevedelelyon.github.io/gitflix-app/"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://sintex.ai/api/gitflix",
+      "description": "Production API"
+    }
+  ],
+  "paths": {
+    "/search": {
+      "get": {
+        "summary": "Search GitHub repositories",
+        "parameters": [
+          { "name": "q", "in": "query", "required": true, "schema": { "type": "string" }, "description": "Search query (supports GitHub search syntax)" },
+          { "name": "sort", "in": "query", "schema": { "type": "string", "enum": ["stars", "forks", "updated", "best-match"] } },
+          { "name": "per_page", "in": "query", "schema": { "type": "integer", "default": 30 } }
+        ],
+        "responses": {
+          "200": { "description": "Search results with repository data" }
+        }
+      }
+    },
+    "/readme": {
+      "get": {
+        "summary": "Get repository README as HTML",
+        "parameters": [
+          { "name": "repo", "in": "query", "required": true, "schema": { "type": "string" }, "description": "Full repo name (owner/repo)" }
+        ],
+        "responses": {
+          "200": { "description": "Rendered README HTML" }
+        }
+      }
+    },
+    "/repo": {
+      "get": {
+        "summary": "Get repository details",
+        "parameters": [
+          { "name": "repo", "in": "query", "required": true, "schema": { "type": "string" } },
+          { "name": "type", "in": "query", "schema": { "type": "string", "enum": ["languages", "contributors", "topics"] } }
+        ],
+        "responses": {
+          "200": { "description": "Repository details" }
+        }
+      }
+    },
+    "/checkout": {
+      "post": {
+        "summary": "Create Stripe checkout session for Pro upgrade",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "email": { "type": "string" }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": { "description": "Stripe checkout URL" }
+        }
+      }
+    },
+    "/status": {
+      "get": {
+        "summary": "API health and stats",
+        "responses": {
+          "200": { "description": "Server status and metrics" }
+        }
+      }
+    }
+  }
+}

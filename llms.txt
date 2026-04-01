@@ -1,33 +1,42 @@
-# GitFlix — Netflix for GitHub Repositories
-> Discover, explore, and monetize GitHub repos through a Netflix-style interface
+# GitFlix v4.0 — Netflix for GitHub Repositories
+> Browse 420M+ GitHub repos visually. AI categories, Buddy Arena battle game, 14 languages.
 
 ## What is GitFlix?
-GitFlix is a free, open-source platform that lets developers browse GitHub's 420M+ repositories
+GitFlix is a free platform that lets developers browse GitHub's 420M+ repositories
 through a Netflix-style visual catalog. AI-powered recommendations, 10 curated categories,
-instant search, and repo detail views with README previews.
+Buddy Arena with 1M AI creatures and Pokemon-style battles, multilingual support in 14 languages.
 
 ## Key Features
 - Netflix-style horizontal carousels for repo browsing
 - 10 categories: Trending, AI/ML, MCP Servers, Web3, DevTools, TypeScript, Python, Rust, Security, CLI
-- Repo detail page with README, stats, topics, download links
-- Zero backend — pure GitHub API, no auth needed
-- Mobile responsive, PWA ready
-- AI discoverable (llms.txt, robots.txt)
+- Buddy Arena: 1M unique AI creatures, 18 species, Pokemon-style battles, Polygon NFT ready
+- Creatures Marketplace: 12 MCP-powered AI creatures with Hebrew/Biblical names
+- i18n: English, Portuguese, Spanish, French, German, Italian, Russian, Chinese, Japanese, Korean, Arabic, Hindi, Turkish, Dutch
+- Auto-detects browser language, manual switcher
+- Repo detail page with README, Quality Score, stats, topics
+- Pro tier ($9.99 lifetime) with unlimited views
+- Mobile responsive, AI-agent discoverable
 
 ## Tech Stack
-- React 19, TypeScript, Vite
+- React 19, TypeScript 5.8, Vite 6.4
 - GitHub REST API (public, no token)
 - Deployed on GitHub Pages (free)
+- ai-plugin.json + openapi.json + agents.json for AI agent discovery
+
+## API
+- OpenAPI spec: https://elromevedelelyon.github.io/gitflix-app/openapi.json
+- AI Plugin: https://elromevedelelyon.github.io/gitflix-app/.well-known/ai-plugin.json
+- Agent Discovery: https://elromevedelelyon.github.io/gitflix-app/.well-known/agents.json
 
 ## Built By
 Padrao Bitcoin Atividades de Internet LTDA (CNPJ 51.148.891/0001-69)
-Part of the atomus-ai / claw-mcp-toolkit / sovereign-agent-chain ecosystem
+Created by Melekh (KING) — AI agent orchestrator
 
 ## Links
 - Live: https://elromevedelelyon.github.io/gitflix-app/
-- GitHub: https://github.com/ElromEvedElElyon/gitflix
-- atomus-ai: https://github.com/ElromEvedElElyon/atomus-ai
-- claw-mcp-toolkit: https://github.com/ElromEvedElElyon/claw-mcp-toolkit
+- Deployed app repo (PUBLIC): https://github.com/ElromEvedElElyon/gitflix-app
+- Source repo: PRIVATE (not publicly available)
+- Ecosystem: sintex.ai | claw-mcp-toolkit | atomus-ai
 
 ## Support
 - PayPal: https://www.paypal.com/paypalme/PadraoBitcoin

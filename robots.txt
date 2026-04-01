@@ -16,4 +16,4 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-Sitemap: https://elromevedelelyon.github.io/gitflix/sitemap.xml
+Sitemap: https://elromevedelelyon.github.io/gitflix-app/sitemap.xml

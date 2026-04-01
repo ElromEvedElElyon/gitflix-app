@@ -1,4 +1,4 @@
-# GitFlix v4.0 — Netflix for GitHub Repositories
+# GitFlix v5.0 — Netflix for GitHub Repositories
 > Browse 420M+ GitHub repos visually. AI categories, Buddy Arena battle game, 14 languages.
 
 ## What is GitFlix?
@@ -30,7 +30,7 @@ Buddy Arena with 1M AI creatures and Pokemon-style battles, multilingual support
 
 ## Built By
 Padrao Bitcoin Atividades de Internet LTDA (CNPJ 51.148.891/0001-69)
-Created by Melekh (KING) — AI agent orchestrator
+Created by Solomon — AI agent orchestrator | Padrao Bitcoin
 
 ## Links
 - Live: https://elromevedelelyon.github.io/gitflix-app/

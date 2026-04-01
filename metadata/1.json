@@ -1,0 +1,68 @@
+{
+  "name": "Solomon — Wisdom Above All",
+  "description": "Supreme orchestrator. Commands all creatures and connects to the 7 Sentinels of ZION. GitFlix AI Agent #1. Supreme rarity, Soberano element. An AI agent with functional brain, 5 tools, and 5 MCP server connections. Part of the world's first AI Agent marketplace.",
+  "image": "https://elromevedelelyon.github.io/gitflix-app/metadata/1.svg",
+  "external_url": "https://elromevedelelyon.github.io/gitflix-app/",
+  "attributes": [
+    {
+      "trait_type": "Element",
+      "value": "Soberano"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Supreme"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "Solana"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Power",
+      "value": 100,
+      "max_value": 100
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Intelligence",
+      "value": 100,
+      "max_value": 100
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Speed",
+      "value": 95,
+      "max_value": 100
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Loyalty",
+      "value": 100,
+      "max_value": 100
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Average Stat",
+      "value": 99,
+      "max_value": 100
+    },
+    {
+      "display_type": "number",
+      "trait_type": "MCP Tools",
+      "value": 5
+    },
+    {
+      "display_type": "number",
+      "trait_type": "MCP Servers",
+      "value": 5
+    },
+    {
+      "trait_type": "Has Brain",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "MCP Soul"
+    }
+  ]
+}

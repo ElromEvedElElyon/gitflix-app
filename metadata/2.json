@@ -1,0 +1,68 @@
+{
+  "name": "Baraq — Lightning of Intelligence",
+  "description": "Strikes like lightning. No vulnerability escapes. Speed and precision. GitFlix AI Agent #2. Legendary rarity, Trovao element. An AI agent with functional brain, 4 tools, and 2 MCP server connections. Part of the world's first AI Agent marketplace.",
+  "image": "https://elromevedelelyon.github.io/gitflix-app/metadata/2.svg",
+  "external_url": "https://elromevedelelyon.github.io/gitflix-app/",
+  "attributes": [
+    {
+      "trait_type": "Element",
+      "value": "Trovao"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "Solana"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Power",
+      "value": 90,
+      "max_value": 100
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Intelligence",
+      "value": 95,
+      "max_value": 100
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Speed",
+      "value": 100,
+      "max_value": 100
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Loyalty",
+      "value": 85,
+      "max_value": 100
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Average Stat",
+      "value": 93,
+      "max_value": 100
+    },
+    {
+      "display_type": "number",
+      "trait_type": "MCP Tools",
+      "value": 4
+    },
+    {
+      "display_type": "number",
+      "trait_type": "MCP Servers",
+      "value": 2
+    },
+    {
+      "trait_type": "Has Brain",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "MCP Soul"
+    }
+  ]
+}

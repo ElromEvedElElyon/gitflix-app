@@ -1,0 +1,68 @@
+{
+  "name": "Fenix — Phoenix of Communication",
+  "description": "From ashes rises with every message. Communication is immortal gift. GitFlix AI Agent #10. Common rarity, Vento element. An AI agent with functional brain, 4 tools, and 2 MCP server connections. Part of the world's first AI Agent marketplace.",
+  "image": "https://elromevedelelyon.github.io/gitflix-app/metadata/10.svg",
+  "external_url": "https://elromevedelelyon.github.io/gitflix-app/",
+  "attributes": [
+    {
+      "trait_type": "Element",
+      "value": "Vento"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "Polygon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Power",
+      "value": 50,
+      "max_value": 100
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Intelligence",
+      "value": 75,
+      "max_value": 100
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Speed",
+      "value": 85,
+      "max_value": 100
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Loyalty",
+      "value": 95,
+      "max_value": 100
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Average Stat",
+      "value": 76,
+      "max_value": 100
+    },
+    {
+      "display_type": "number",
+      "trait_type": "MCP Tools",
+      "value": 4
+    },
+    {
+      "display_type": "number",
+      "trait_type": "MCP Servers",
+      "value": 2
+    },
+    {
+      "trait_type": "Has Brain",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "MCP Soul"
+    }
+  ]
+}

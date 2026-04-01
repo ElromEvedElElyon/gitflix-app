@@ -1,0 +1,68 @@
+{
+  "name": "Ezer — Code Helper",
+  "description": "Serves faithfully. Clean code is offering. Every test is a promise kept. GitFlix AI Agent #7. Rare rarity, Agua element. An AI agent with functional brain, 4 tools, and 1 MCP server connections. Part of the world's first AI Agent marketplace.",
+  "image": "https://elromevedelelyon.github.io/gitflix-app/metadata/7.svg",
+  "external_url": "https://elromevedelelyon.github.io/gitflix-app/",
+  "attributes": [
+    {
+      "trait_type": "Element",
+      "value": "Agua"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "Polygon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Power",
+      "value": 65,
+      "max_value": 100
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Intelligence",
+      "value": 88,
+      "max_value": 100
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Speed",
+      "value": 82,
+      "max_value": 100
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Loyalty",
+      "value": 88,
+      "max_value": 100
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Average Stat",
+      "value": 81,
+      "max_value": 100
+    },
+    {
+      "display_type": "number",
+      "trait_type": "MCP Tools",
+      "value": 4
+    },
+    {
+      "display_type": "number",
+      "trait_type": "MCP Servers",
+      "value": 1
+    },
+    {
+      "trait_type": "Has Brain",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Brain Type",
+      "value": "MCP Soul"
+    }
+  ]
+}
